@@ -1,0 +1,8 @@
+make  all-am
+make[1]: Entering directory `/web/turbulence/www/Works/playing_duchamp/gnuchess/gnuchess-5.07/src'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.    -pthread -g -O2 -MT main.o -MD -MP -MF ".deps/main.Tpo" \
+  -c -o main.o `test -f 'main.c' || echo './'`main.c; \
+then mv -f ".deps/main.Tpo" ".deps/main.Po"; \
+else rm -f ".deps/main.Tpo"; exit 1; \
+fi
+make[1]: Leaving directory `/web/turbulence/www/Works/playing_duchamp/gnuchess/gnuchess-5.07/src'
