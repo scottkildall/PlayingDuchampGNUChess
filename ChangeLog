@@ -1,0 +1,475 @@
+2015-10-17  Antonio Ceballos  <aceballos@gmail.com>
+
+	* configure.ac: version 6.2.2.
+	* NEWS: version 6.2.2.
+	* TODO: version 6.2.2.
+	* doc/version.texi: version 6.2.2.
+
+2015-10-13  Antonio Ceballos  <aceballos@gmail.com>
+
+	* po/es.po: update.
+	* po/fr.po: added.
+	* po/nl.po: update.
+	* po/uk.po: update.
+	* po/vi.po: update.
+	* po/LINGUAS: added fr.
+
+2015-10-10  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/frontend/engine.cc: robust program exit concerning threads.
+	* src/adapter/main.cpp: robust program exit concerning threads.
+	* src/engine/protocol.cpp: robust program exit concerning threads.
+	* src/main.cc: robust program exit concerning threads.
+	* src/components.cc: robust program exit concerning threads.
+	* src/components.h: robust program exit concerning threads.
+	* TODO: new tasks.
+	* configure.ac: set version 6.2.2-rc1.
+	* doc/version.texi: version 6.2.2-rc1.
+
+2015-04-05  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/adapter/fen.cpp: detailed error messages for bad FEN syntax.
+
+2015-04-05  Antonio Ceballos  <aceballos@gmail.com>
+
+	* po/es.po: small corrections in Spanish translation.
+
+2015-01-25  Antonio Ceballos  <aceballos@gmail.com>
+
+	* configure.ac: version 6.2.1e (evolution of 6.2.1).
+	* doc/version.texi: version 6.2.1e.
+	* src/main.cc: mark translatable strings.
+	* src/frontend/engine.cc: mark translatable strings.
+	* po/gnuchess.pot: updated for the new translatable strings.
+	* po/POTFILES.in: include main.cc and engine.cc.
+	* po/POTFILES: include main.cc and engine.cc.
+	* po/es.po: translation of the new strings.
+
+2015-01-04  Antonio Ceballos  <aceballos@gmail.com>
+
+	* NEWS: changes in version 6.2.1.
+	* configure.ac: set version 6.2.1.
+	* doc/version.texi: set version 6.2.1.
+	* doc/Makefile.am: clean files.
+	* man/Makefile.am: clean files.
+
+2015-01-04  Antonio Ceballos  <aceballos@gmail.com>
+
+	* NEWS: changes in version 6.2.0.
+	* configure.ac: set version 6.2.0.
+	* doc/version.texi: set version 6.2.0.
+	* doc/gnuchess.texi: copyright year 2015.
+	* src/main.cc: copyright year 2015.
+
+2015-01-03  H.G. Muller  <h.g.muller@hccnet.nl>  (tiny change)
+
+	* misc: new directory
+	* misc/gnuchess.eng: engine file for XBoard.
+	* misc/gnuchess.png: logo file for XBoard.
+	* configure.ac: path for installation of game data files.
+	* Makefile.am: distribution of engine and logo file.
+
+2015-01-02  Michael Vetter  <g.bluehut@googlemail.com>  (tiny change)
+
+	* doc/gnuchess.texi: correct punctuation and wording.
+	* src/* (several files): remove trailing spaces.
+
+2014-08-01  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/frontend/move.cc: lowercase not allowed for piece names.
+
+2014-08-01  Antonio Ceballos  <aceballos@gmail.com>
+
+	* configure.ac: simple man page based on help2man.
+	* Makefile.am: simple man page based on help2man.
+	* man/: simple man page based on help2man.
+	* man/Makefile.am: simple man page based on help2man.
+	* doc/Makefile.am: small error in header description,
+
+2014-07-29  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/frontend/debug.cc: compile with no warnings when DEBUG
+	directive defined.
+	* src/adapter/book.cpp: replace weird characters.
+	* src/main.cc: copyright year 2014.
+	* configure.ac: set version 6.1.2.
+	* doc/gnuchess.texi: replace CFLAGS by CPPFLAGS.
+	* doc/version.texi: set version 6.1.2.
+	* TODO: added new task.
+	* NEWS: changes in version 6.1.2.
+	* po/LINGUAS: added gl, vi, nb.
+	* po/gl.po: added.
+	* po/vi.po: added.
+	* po/nb.po: added.
+	* po/*.po: updated.
+
+2014-07-29  Pawel Koziol <pp.koziol@gmail.com>  (tiny change)
+
+	* src/engine/book.cpp: fix for correct handling of castling moves.
+
+2013-11-23  Antonio Ceballos  <aceballos@gmail.com>
+
+	* configure.ac: set version 6.1.1.
+	* NEWS: changes in version 6.1.1.
+
+2013-11-23  Antonio Ceballos  <aceballos@gmail.com>
+
+	* po/LINGUAS: added pt_BR.
+	* po/eo.po: added (forgot to really add it on 2013-11-16).
+	* po/pt_BR.po: added.
+	* po/nl.po: update.
+
+2013-11-23  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/frontend/: *.l renamed as *.ll.
+	* src/frontend/: *.c renamed as *.cc.
+	* src/frontend/players.cc: cast required in C++.
+	* src/frontend/Makefile.am: *.l renamed as *.ll;
+	*.c renamed as *.cc.
+	* src/main.cc: 'remove extern "C"'.
+	* doc/gnuchess.texi: frontend no longer compiled in C; now in C++.
+
+2013-11-23  Antonio Ceballos  <aceballos@gmail.com>
+
+	* configure.ac: require autoconf 2.69.
+
+2013-11-16  Benno Schulenberg  <bensberg@justemail.net>  (tiny change)
+
+	* src/frontend/cmd.c: small corrections in translatable strings.
+
+2013-11-16  Sebastian Pipping <sebastian@pipping.org>  (tiny change)
+
+	* src/adapter/main.cc: remove extra '>'.
+
+2013-11-16  Antonio Ceballos  <aceballos@gmail.com>
+
+	* po/gnuchess.pot: update.
+	* po/LINGUAS: added eo.
+	* po/es.po: update.
+	* po/nl.po: update.
+	* po/eo.po: added.
+
+2013-11-08  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/main.cc: clean up includes.
+	* src/frontend/cmd.c: correct help gextextization.
+	* configure.ac: set version 6.1.0.
+	* doc/version.texi: set version 6.1.0.
+	* doc/gnuchess.texi: translations section.
+	* TODO: remove gettext and Spanish translation tasks.
+	* po/gnuchess.pot: update.
+	* po/LINGUAS: added uk, de, sr, nl.
+	* po/es.po: update.
+	* po/de.po: added.
+	* po/uk.po: added.
+	* po/sr.po: added.
+	* po/nl.po: added.
+	* NEWS: changes in version 6.1.0.
+	* test/README: record 6.1.0 ranking in FICS.
+
+2013-10-12  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/main.cc: add #include <locale.h>.
+	* src/frontend/cmd.c: remove blank spaces.
+	* configure.ac: set version 6.0.93.
+
+2013-08-27  Antonio Ceballos  <aceballos@gmail.com>
+
+	* po/es.po: fix some formats.
+	* src/frontend/cmd.c: make some texts more suitable for
+	translation.
+	* configure.ac: set version 6.0.92.
+
+2013-08-26  Antonio Ceballos  <aceballos@gmail.com>
+
+	* po/es.po: convert from ISO-8859-1 to UTF-8.
+	* src/frontend/cmd.c: make some texts more suitable for
+	translation.
+	* configure.ac: set version 6.0.91.
+
+2013-08-23  Antonio Ceballos  <aceballos@gmail.com>
+
+	* po/es.po: add some Spanish translations.
+
+2013-08-23  Antonio Ceballos  <aceballos@gmail.com>
+
+	gettextize GNU Chess:
+
+	* configure.ac: add gettext macros; set version 6.0.90.
+	* Makefile.am: add gettext flags.
+	* src/Makefile.am: add gettext flags.
+	* src/main.cc: initialize locale data.
+	* src/frontend/Makefile.am: add gettext flags.
+	* src/frontend/cmd.c: mark translatable strings .
+	* doc/version.texi: set version 6.0.90.
+	* lib: create directory.
+	* lib/gettext.h: copied from gettext 0.18.3.
+	* po: create file as explained in gettext maintainers.
+
+2013-08-23  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (EXTRA_DIST): Add config.rpath, m4/ChangeLog.
+	* configure.ac (AC_CONFIG_FILES): Add po/Makefile.in.
+
+2013-08-22  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/frontend/cmd.c: add command pgnreplay and keep former
+	pgnload as is in version 6.0.3.
+	* src/frontend/pgn.c: add flag in PGNReadFromFile() to optionally
+	show a summary (used by pgnreplay).
+	* src/frontend/common.h: add flag in PGNReadFromFile();
+	declare pgnreplay().
+	* doc/gnuchess.texi: explain commands pgnreplay, first, last,
+	next, n, previous, p.
+	* src/frontend/Makefile.am: CFLAGS += -std=c99, so that output.c
+	happily compiles unicode characters.
+
+2013-08-21  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/frontend/cmd.c: fix setboard so that the engine is aware of
+	the loaded position.
+	* src/frontend/common.h: likewise.
+
+2013-08-20  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/book.bin: deleted - moved to src/smallbook.bin.
+	* src/smallbook.bin: added.
+	* src/gnuchess.ini: default book name changed to smallbook.bin.
+	* Makefile.am: book.bin replaced by smallbook.bin.
+
+2013-08-19  Antonio Ceballos  <aceballos@gmail.com>
+
+	* doc/gnuchess.texi: graphic mode explained.
+
+2013-08-19  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/frontend/cmd.c: graphic mode usage and help improved;
+	replace 'prior' by 'first' for pgnload.
+	* src/frontend/common.h: replace 'prior' by 'first' for pgnload.
+
+2013-08-19  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/main.cc: avoid 100% CPU usage in UCI mode.
+
+2013-08-18  Elvis Vasconcelos  <elvisvasc2@gmail.com>
+
+	* src/main.cc: graphic mode and pgnload enhancements.
+	* src/frontend/output.c: likewise.
+	* src/frontend/cmd.c: likewise.
+	* src/frontend/pgn.c: likewise.
+	* src/frontend/common.h: likewise.
+
+2013-08-18  Antonio Ceballos  <aceballos@gmail.com>
+
+	* AUTHORS: graphic mode and pgnload enhancements..
+
+2013-03-11  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/main.cc: Copyright year updated to 2013.
+
+2013-03-10  Antonio Ceballos  <aceballos@gmail.com>
+
+	* configure.ac: explicit package name in AC_INIT.
+
+2013-03-10  Antonio Ceballos  <aceballos@gmail.com>
+
+	* configure.ac: version 6.0.3
+	* NEWS: changes in version 6.0.3
+	* doc/gnuchess.texi: date
+	* doc/version.texi: version
+
+
+2013-03-10  Antonio Ceballos  <aceballos@gmail.com>
+
+	* configure.ac: replace AM_CONFIG_HEADER by AC_CONFIG_HEADERS;
+	modernize AM_INIT_AUTOMAKE.
+
+2013-03-10  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/frontend/cmd.c: if in manual mode, keep it after undo.
+	* src/main.cc: sleep 100us in main loop to avoid 100% CPU.
+
+2012-08-29  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/adapter/pgn.cpp: Ignore rest of line instead of
+	crashing when unexpected token is found in game line.
+	This way, book_1.01.pgn can be successfully read.
+
+2012-08-29  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/frontend/output.c: removed unused code.
+	* src/frontend/genmove.c: removed unused code.
+	* src/frontend/move.c: removed unused code.
+	* src/frontend/atak.c: removed unused code.
+	* src/frontend/solve.c: removed unused code.
+	* src/frontend/common.h: removed unused code.
+	* src/main.cc: removed unused code.
+	* TODO: added some tasks
+
+2012-03-05  Antonio Ceballos  <aceballos@gmail.com>
+
+	* INSTALL: Remove reference to inexistent doc/README.
+
+2012-03-04  Antonio Ceballos  <aceballos@gmail.com>
+
+	Idea from Kamil Rytarowski <n54@gmx.com>
+	* src/adapter/main.cpp: Open book file in read-only or read-write
+	mode depending on BookLearn option false or true, respectively.
+	* src/adapter/adapter.cpp: Open book file in read-only or read-write
+	mode depending on BookLearn option false or true, respectively.
+	* src/adapter/book.h: book_open() can open a book file in
+	read-only or read-write mode.
+	* src/adapter/book.cpp: book_open() can open a book file in
+	read-only or read-write mode.
+
+	* NEWS: Add the book open mode issue to the changes in version 6.0.2
+
+2012-02-12  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/main.cc: Fix version number in file heading.
+	Increase size of string for the --addbook option.
+	* src/components.cc: Fix version number in file heading.
+	* src/components.h: Fix version number in file heading.
+	* configure.ac: help for --addbook option.
+	* NEWS: changes in version 6.0.2
+	* test/README: record 6.0.1 ranking in FICS.
+	* configure.ac: version 6.0.2
+
+2012-02-06  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/main.cc: new --addbook option to compile book and quit.
+	* src/frontend/cmd.c: help for --addbook option.
+	* doc/gnuchess.texi: info for --addbook option.
+
+2011-12-26  Josef Reidinger  <jreidinger@suse.com>  (tiny change)
+
+	* src/components.cc: add missing return in functions returning
+	non-void.
+
+2011-09-20  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/frontend/epd.c: extend maximum file name length of EPD
+	files to 127 characters for the load and loadepd commands.
+
+2011-09-07  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/components.cc: fix race condition.
+	* configure.ac: version 6.0.1
+	* NEWS: changes in version 6.0.1
+	* INSTALL: remove info not related to installation
+
+2011-08-20  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/adapter/adapter.cpp: fix program crash for solveepd with st 30.
+	* src/frontend/engine.c: allow kibitz for solve command.
+
+2011-07-31  Antonio Ceballos  <aceballos@gmail.com>
+
+	* doc/gnuchess.texi: 'book.dat' replaced by 'book.bin'.
+
+2011-07-30  Antonio Ceballos  <aceballos@gmail.com>
+
+	* INSTALL: 'cd src' before './gnuchess'
+
+2011-07-30  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/components.cc: if gnuchess.ini is not found, report error
+	before prompt.
+	* src/adapter/main.cpp: if gnuchess.ini is not found, report error
+	before prompt.
+	* TODO: if gnuchess.ini is not found, report error before prompt.
+
+2011-07-29  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/adapter/adapter.cpp: after 'book on', open the book.
+
+2011-06-23  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/adapter/adapter.cpp: use strlen instead of sizeof to get
+	length of book file name.
+
+2011-05-02  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/frontend/common.h: remove declarations of unused functions 
+	and variables.
+	* src/frontend/cmd.c: remove initialization of unused variable,
+	* src/frontend/init.c: remove unused functions.
+	* src/main.cc: remove unused variables.
+
+2011-04-29  Antonio Ceballos  <aceballos@gmail.com>
+
+	* src/frontend/Makefile.am: remove unused code: ttable.c
+	* src/frontend/ttable.c: remove unused file.
+	* src/frontend/common.h: remove declarations of functions defined
+	in ttable.c; remove declaration of unused variable: HashTab[].
+	* src/frontend/pgn.c: remove unused code: call to TTClear();
+	* src/main.cc: removed unused code: references to HashTab[].
+
+2011-04-27  Antonio Ceballos  <aceballos@gmail.com>
+
+	* INSTALL: typo in book file name.
+
+2011-04-24  Antonio Ceballos  <aceballos@gmail.com>
+
+	* AUTHORS: correct e-mail address.
+	* Makefile.am: iq6.epd removed from distribution.
+	* test/: new directory, for test suites.
+	* test/iq6.epd: moved from .
+	* test/endgame.epd: new file, copied from CVS.
+	* test/BT2630.epd: new file, copied from CVS.
+	* test/README: new file, for the record of test executions.
+
+2011-04-18  Antonio Ceballos  <aceballos@gmail.com>
+
+	* ChangeLog: changes taking v5.9.91 as first version.
+	* NEWS: reorganized.
+	* TODO: reorganized.
+	* configure.ac: doc/Makefile included.
+	* Makefile.am: doc subdir added; doc/README* removed.
+	* doc/quotes.rb: new file, removes extra quotes in book source file.
+	* doc/README: deleted, replaced by texinfo file.
+	* doc/README_adapter: deleted, replaced by texinfo file.
+	* doc/README_engine: deleted, replaced by texinfo file.
+	* doc/README_engine_technical: deleted, replaced by texinfo file.
+	* doc/Makefile.am: new file, builds info file.
+	* doc/gnuchess.texi: new file, replaces all previous doc/README*.
+	* doc/fdl.texi: new file, required to build info file: license.
+	* doc/version.texi: new file, required to build info file: version.
+	* src/gnuchessx: new file (was in v5), script to run in xboard mode.
+	* src/gnuchessu: new file, script to run in UCI mode.
+	* src/Makefile.am: gnuchessx and gnuchessu added to bin_SCRIPTS.
+	* src/gnuchess.ini: no log file by default.
+	* src/main.cc: add v5 options: manual, easy, post, memory N; 
+	remove v5 options: hashsize N
+	* src/frontend/cmd.c: add v5 commands: book *, hash on/off,
+	memory [N], null on/off; remove v5 options: hashsize [N]; 
+	update help command.
+	* src/frontend/engine.c: support to v5 options and commands.
+	* src/frontend/solve.c: remove ELO computation.
+	* src/frontend/common.h: remove hashsize command.
+	* src/adapter/option.cpp: added option BookWorst to support
+	command 'book worst'; default values: EngineName (GNU Chess),
+	LogFile (adapter.log), BookWorst (false).
+	* src/adapter/book.cpp: method book_move overloaded to support
+	command 'book worst'.
+	* src/adapter/book.h: method book_move overloaded to support
+	command 'book worst'.
+	* src/adapter/adapter.cpp: ponder by default; support to commands:
+	book *, hash on/off, memory [N], null on/off.
+	* src/adapter/uci.cpp: support to hashsize command.
+	* src/adapter/main.cpp: support to hashsize command; use defaults 
+	if gnuchess.ini not found.
+	* src/engine/protocol.cpp: support to hash on/off command.
+	* src/engine/search_full.cpp: support to hash on/off command.
+
+2011-04-18  Antonio Ceballos  <aceballos@gmail.com>
+
+	* README-svn: for building gnuchess from Subversion.
+	* src/frontend/engine.c: comment out extra output write.
+	* src/adapter/adapter.cpp: remove debug trace.
+
+Copyright (C) 2001-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

@@ -1,0 +1,113 @@
+search.o search.o: search.cpp \
+  /usr/lib/gcc/i386-redhat-linux/3.4.6/../../../../include/c++/3.4.6/csetjmp \
+  /usr/include/setjmp.h /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h /usr/include/bits/setjmp.h \
+  /usr/include/bits/sigset.h attack.h board.h colour.h util.h \
+  /usr/lib/gcc/i386-redhat-linux/3.4.6/../../../../include/c++/3.4.6/cstdio \
+  /usr/lib/gcc/i386-redhat-linux/3.4.6/../../../../include/c++/3.4.6/i386-redhat-linux/bits/c++config.h \
+  /usr/lib/gcc/i386-redhat-linux/3.4.6/../../../../include/c++/3.4.6/i386-redhat-linux/bits/os_defines.h \
+  /usr/lib/gcc/i386-redhat-linux/3.4.6/../../../../include/c++/3.4.6/cstddef \
+  /usr/lib/gcc/i386-redhat-linux/3.4.6/include/stddef.h \
+  /usr/include/stdio.h /usr/include/bits/types.h \
+  /usr/include/bits/wordsize.h /usr/include/bits/typesizes.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/include/bits/wchar.h /usr/include/gconv.h \
+  /usr/lib/gcc/i386-redhat-linux/3.4.6/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h piece.h square.h vector.h book.h list.h \
+  material.h move.h move_do.h move_gen.h option.h pawn.h protocol.h pv.h \
+  search.h search_full.h sort.h trans.h value.h
+
+/usr/lib/gcc/i386-redhat-linux/3.4.6/../../../../include/c++/3.4.6/csetjmp:
+
+/usr/include/setjmp.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/bits/sigset.h:
+
+attack.h:
+
+board.h:
+
+colour.h:
+
+util.h:
+
+/usr/lib/gcc/i386-redhat-linux/3.4.6/../../../../include/c++/3.4.6/cstdio:
+
+/usr/lib/gcc/i386-redhat-linux/3.4.6/../../../../include/c++/3.4.6/i386-redhat-linux/bits/c++config.h:
+
+/usr/lib/gcc/i386-redhat-linux/3.4.6/../../../../include/c++/3.4.6/i386-redhat-linux/bits/os_defines.h:
+
+/usr/lib/gcc/i386-redhat-linux/3.4.6/../../../../include/c++/3.4.6/cstddef:
+
+/usr/lib/gcc/i386-redhat-linux/3.4.6/include/stddef.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/lib/gcc/i386-redhat-linux/3.4.6/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+piece.h:
+
+square.h:
+
+vector.h:
+
+book.h:
+
+list.h:
+
+material.h:
+
+move.h:
+
+move_do.h:
+
+move_gen.h:
+
+option.h:
+
+pawn.h:
+
+protocol.h:
+
+pv.h:
+
+search.h:
+
+search_full.h:
+
+sort.h:
+
+trans.h:
+
+value.h:

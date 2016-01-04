@@ -1,0 +1,1 @@
+./gendocs.sh --email bug-gnu-chess@gnu.org gnuchess "GNU Chess manual"
